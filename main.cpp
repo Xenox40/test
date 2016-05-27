@@ -10,6 +10,14 @@ int getNumber()
     return x;
 }
 
+string getName()
+{
+    string name;
+    cout << "Write your name: ";
+    cin >> name;
+    return name;
+}
+
 int main()
 {
     int x = getNumber();
