@@ -20,8 +20,9 @@ string getName()
 
 int main()
 {
+    string name = getName();
     int x = getNumber();
     cout << "Thank you bro!" << endl
-         << "I like this number too!" << endl;
+         << "I like this number too " << name << "!" << endl;
     return 0;
 }
