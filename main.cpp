@@ -13,6 +13,7 @@ int getNumber()
 int main()
 {
     int x = getNumber();
-    cout << "Thank you bro!" << endl;
+    cout << "Thank you bro!" << endl
+         << "I like this number too!" << endl;
     return 0;
 }
